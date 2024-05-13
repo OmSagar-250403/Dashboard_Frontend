@@ -13,10 +13,10 @@ function createData(name, trackingId, date, status) {
 }
 
 const rows = [
-  createData("Lasania Chiken Fri", 18908424, "2 March 2022", "Approved"),
-  createData("Big Baza Bang ", 18908424, "2 March 2022", "Pending"),
-  createData("Mouth Freshner", 18908424, "2 March 2022", "Approved"),
-  createData("Cupcake", 18908421, "2 March 2022", "Delivered"),
+  createData("Samsung Power Bank", 18908424, "2 March 2022", "Approved"),
+  createData("Realme Watch 2", 18908424, "2 March 2022", "Approved"),
+  createData("Iphone 14 Pro Max", 18908424, "2 March 2022", "Delivered"),
+  createData("Iphone 14", 18908421, "2 March 2022", "Pending"),
 ];
 
 
@@ -58,7 +58,7 @@ export default function BasicTable() {
                 <TableCell align="left">Tracking ID</TableCell>
                 <TableCell align="left">Date</TableCell>
                 <TableCell align="left">Status</TableCell>
-                <TableCell align="left"></TableCell>
+                <TableCell align="left">Details</TableCell>
               </TableRow>
             </TableHead>
             <TableBody style={{ color: "white" }}>
