@@ -8,6 +8,7 @@ const Cards = () => {
   return (
     <div className="Cards">
       {cardsData.map((card, id) => {
+
         return (
           <div className="parentContainer" key={id}>
             <Card
@@ -20,7 +21,10 @@ const Cards = () => {
             />
           </div>
         );
-      })}
+
+
+      })}  
+
     </div>
   );
 };

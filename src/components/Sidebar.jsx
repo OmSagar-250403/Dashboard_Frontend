@@ -38,6 +38,7 @@ const Sidebar = () => {
       </div>
 
       <div className="menu">
+
         {SidebarData.map((item, index) => {
           return (
             <div
@@ -50,6 +51,8 @@ const Sidebar = () => {
             </div>
           );
         })}
+
+        
         {/* signoutIcon */}
         <div className="menuItem">
           <UilSignOutAlt />
